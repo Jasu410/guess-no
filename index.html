@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessNo</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+        body{
+            background-image: url("https://www.cuinsight.com/wp-content/uploads/2021/09/bigstock-Businessman-Holding-Hand-Quest-397390436.jpg") ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        .box:hover{
+             scale: 1.1;
+        }
+    </style>
+</head>
+<body><center>
+    <div class="box">
+    <h1>Number Guess Application</h1>
+    <h3>Rule:</h3>
+    <p>Select a number between 1 to 100 and Guess it!!!</p>
+    Guess a number:<input type="number" placeholder="Enter the guess number" id="g"><br><br>
+    <div id="result"></div><br>
+    <input type="submit" value="Click" id="Click" >
+    <input type="submit" value="reset" id="reset" onclick="window.location.reload()">   
+</center>
+</div>
+    <script src="design.js"></script>
+</body>
+</html>
